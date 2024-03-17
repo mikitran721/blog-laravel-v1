@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+//bo sung them
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//endpoint = posts
+//tự động tạo các route cho CRUD với PostController
+Route::resource('posts', PostController::class);

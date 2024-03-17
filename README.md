@@ -16,7 +16,7 @@
     -   run code `php artisan migrate` laravel sẽ thực thi các file migration chưa được thực hiện.
 -   5. Tạo Controller:
     -   `php artisan make:controller PostController --resource`
-    -   trong do: `--resource` là tùy chọn bật tất cả CRUD cơ bản.
+    -   trong do: `--resource` là tùy chọn bật tất cả CRUD cơ bản tự động.
 
 ## TƯƠNG TÁC VỚI CSDL - MIGRATION
 
